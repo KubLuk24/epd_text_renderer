@@ -18,6 +18,7 @@ The display begins setting pixel values at 0, 0. This means in the bottom right 
 After initializing the display and sending a command to start accepting data, you send in 8 bits of data every time, this allows you to set the color values of 8 pixels at a time. We send them as hexadecimal values instead of pure binary, so:
 
 `0x00`: 0000 0000
+
 `0xFF`: 1111 1111
 
 Where `0` is a colored pixel and `1` is a white pixel.
